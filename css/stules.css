@@ -1,6 +1,7 @@
 :root {
   --primary-text-color: #4f4f4f;
   --primary-bg-color: #f4f6f9;
+  --secondary-bg-color: #fafafa;
   --primary-title-color: #333333;
   --blue-color: #00adee;
 
@@ -61,6 +62,7 @@ button {
   min-width: 360px;
   max-width: 1470px;
   padding: 0px 20px;
+  text-align: center;
 }
 
 @media screen and (min-width: 720px) {
@@ -96,7 +98,6 @@ button {
   padding-top: 32px;
   padding-bottom: 59px;
   background-color: var(--primary-bg-color);
-  text-align: center;
 }
 .logo-wrapper {
   margin-bottom: 86px;
@@ -134,7 +135,6 @@ button {
 /* ===========AIM================= */
 .aim {
   padding-top: 54px;
-  text-align: center;
 }
 .aim .subtitle {
   margin-bottom: 27px;
@@ -162,8 +162,33 @@ button {
 
 /* ============FEATURES==================== */
 .features {
-  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 69px;
+  background-color: var(--primary-bg-color);
 }
 .features-title {
   margin-bottom: 52px;
+}
+.features-item {
+  margin-bottom: 50px;
+}
+
+.icon-features {
+  fill: var(--blue-color);
+  margin-bottom: 11px;
+}
+
+/* =========REVIEW========= */
+
+.review {
+  padding-top: 50px;
+  padding-bottom: 71px;
+}
+.review .title {
+  margin-bottom: 39px;
+}
+.icon-dots-slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
