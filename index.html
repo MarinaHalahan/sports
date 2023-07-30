@@ -37,8 +37,12 @@
           up-to-the-minute information on your team.
         </p>
         <div class="phone-stores">
-          <img src="./images/apple-store.png" alt="Apple store" />
-          <img src="./images/google-play.png" alt="Google Play" />
+          <a href="https://apps.apple.com/ua/app/apple-store/id375380948?l=ru"
+            ><img src="./images/apple-store.png" alt="Apple store"
+          /></a>
+          <a href="https://play.google.com/store/apps?hl=uk&gl=US">
+            <img src="./images/google-play.png" alt="Google Play"
+          /></a>
         </div>
       </div>
     </header>
@@ -48,7 +52,7 @@
         <div class="container">
           <p class="title subtitle">WHAT IT DOES</p>
           <h2 class="title aim-title">An Enhanced Football Experience</h2>
-          <p class="aim-text">
+          <p class="section-text">
             The Guardian Live Scores app is your go to app for live scores and
             watching Premier League goals… Get in there, what a result!<br />
             <br />
@@ -57,10 +61,45 @@
             with the big football stories from The Guardian publication.
           </p>
           <a href="#" class="low-link">Learn more</a>
-          <!-- <div class="img-content">
-            <img src="./images/Group 692.1.png" alt="" />
-            <img src="./images/Group 694.3.png" alt="" />
-          </div> -->
+        </div>
+        <div class="aim-img-content">
+          <div class="container">
+            <div class="schedule">
+              <div class="schedule-text">
+                <p class="title schedule-time">Sat, 12:35pm</p>
+                <p class="schedule-title">Arsenal v Chelsea</p>
+                <p class="schedule-describe">Friendly Match</p>
+                <svg class="icon-arsenal" width="48.8" height="57.5">
+                  <use href="./images/symbol-defs.svg#icon-arsenal"></use>
+                </svg>
+                <svg class="icon-chelsea" width="57.7" height="57.5">
+                  <use href="./images/symbol-defs.svg#icon-chelsea"></use>
+                </svg>
+              </div>
+              <div class="turn-panel">
+                <p class="turn-panel-text">Turn on all match notifications</p>
+                <div class="icon-ellipse-turn"></div>
+                <div class="icon-rectangle"></div>
+              </div>
+            </div>
+            <div class="video-screen">
+              <div class="contol-panel">
+                <svg class="contol-panel-icons" width="16.5" height="16.5">
+                  <use href="./images/symbol-defs.svg#icon-pause"></use>
+                </svg>
+                <p>00:28</p>
+                <svg class="contol-panel-icons" width="118" height="6.86">
+                  <use href="./images/symbol-defs.svg#icon-control-line"></use>
+                </svg>
+                <p>00:42</p>
+                <svg class="contol-panel-icons" width="13.7" height="13.7">
+                  <use
+                    href="./images/symbol-defs.svg#icon-baseline-video"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- FEATURES -->
@@ -154,6 +193,22 @@
           </ul>
         </div>
       </section>
+      <!-- GET STARTED -->
+      <section class="start">
+        <div class="container">
+          <p class="title subtitle start-subtitle">GET STARTED</p>
+          <h2 class="title start-title">User-friendly Interface</h2>
+          <p class="section-text start-text">
+            The in-game goal clips from every Premier League match are available
+            to Guardian TV customers with a Guardian subscription. <br /><br />
+            So, if you’re not a subscriber, now’s the time to make that savvy
+            call. If that’s a step too far for you, you can still watch loads of
+            firecracker Premier League action as long as you sign in with a free
+            Guardian iD.
+          </p>
+          <a href="#" class="low-link">Learn more</a>
+        </div>
+      </section>
       <!-- REVIEW -->
       <section class="review">
         <div class="container">
@@ -165,6 +220,40 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="#" class="logo">
+            <svg class="icon-logo" width="25" height="25">
+              <use href="./images/symbol-defs.svg#icon-footer-logo-icon"></use>
+            </svg>
+            Sports
+          </a>
+        </div>
+        <div class="social-box">
+          <a href="https://twitter.com/?lang=uk" class="social-link">
+            <svg class="social-icon" width="25" height="25">
+              <use href="./images/symbol-defs.svg#icon-twitter-circle"></use>
+            </svg>
+          </a>
+          <a href="https://uk-ua.facebook.com/" class="social-link">
+            <svg class="social-icon" width="25" height="25">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/" class="social-link">
+            <svg class="social-icon" width="25" height="25">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </div>
+        <ul class="footer-nav">
+          <li class="footer-nav-link"><a href="#">Download</a></li>
+          <li class="footer-nav-link"><a href="#">Support</a></li>
+          <li class="footer-nav-link"><a href="#">Developers</a></li>
+          <li class="footer-nav-link"><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
