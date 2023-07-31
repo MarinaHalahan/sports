@@ -335,6 +335,61 @@ button {
   margin-right: auto;
 }
 
+/* ===========FAVORITES======= */
+.favorites {
+  padding-top: 19px;
+}
+.favorites-title {
+  margin-bottom: 15px;
+}
+.favorites-text {
+  margin-bottom: 37px;
+}
+
+.favorites .phone-stores {
+  margin-bottom: 37px;
+}
+/*======== CHANNELS========= */
+.channels {
+  padding: 57px 0px 71px 0px;
+  background-color: var(--secondary-bg-color);
+}
+
+.channels-title {
+  margin-bottom: 43px;
+}
+
+.channels-text {
+  text-transform: uppercase;
+  color: #000;
+  font-family: Product Sans;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.sport-tv {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 65px;
+  margin-bottom: 29px;
+}
+.icon-designer-news {
+  border-radius: 50%;
+}
+.middle-channel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.sky {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* =========FOOTER======== */
 .footer {
   height: auto;
@@ -348,7 +403,7 @@ button {
 .footer .logo {
   color: var(--primary-white-color);
 }
-.logo-wrapper {
+.footer .logo-wrapper {
   margin-bottom: 11px;
   text-align: left;
 }
