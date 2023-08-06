@@ -179,7 +179,8 @@ button {
 
 .phone-stores {
   display: flex;
-  justify-content: space-between;
+  gap: 29px;
+  justify-content: center;
 }
 @media screen and (min-width: 720px) {
   .phone-stores {
@@ -204,6 +205,7 @@ button {
 @media screen and (min-width: 720px) {
   .aim {
     padding-top: 109px;
+    padding-bottom: 77px;
     background-image: linear-gradient(
         270deg,
         #fff 0%,
@@ -245,9 +247,13 @@ button {
 
 .aim .low-link {
   display: inline-block;
-  margin-bottom: 22px;
+  margin-bottom: 92px;
 }
-
+@media screen and (min-width: 720px) {
+  .aim .low-link {
+    margin-bottom: 0px;
+  }
+}
 .aim-img-content {
   position: relative;
   width: 100%;
@@ -258,14 +264,18 @@ button {
 @media screen and (min-width: 720px) {
   .aim-img-content {
     order: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
 .schedule {
   position: relative;
   z-index: 1;
-  width: 247px;
+  width: 68.61%;
+  min-width: 247px;
   height: auto;
+  min-height: 150px;
 
   text-align: left;
   border-radius: 3px;
@@ -275,6 +285,16 @@ button {
 
   color: var(--black-total);
 }
+@media screen and (min-width: 720px) {
+  .schedule {
+    width: 360px;
+    margin-bottom: 187px;
+    border-radius: 4px;
+    box-shadow: -22.04164695739746px 23.878454208374023px 48.9814453125px 0px
+      rgba(0, 0, 0, 0.5);
+  }
+}
+
 .schedule-text {
   padding: 19px 0px 12px 11px;
   font-size: 12px;
@@ -287,27 +307,61 @@ button {
   color: var(--primary-text-color);
   margin-bottom: 9px;
 }
+@media screen and (min-width: 720px) {
+  .schedule-time {
+    font-size: 1.4em;
+    margin-bottom: 13px;
+  }
+}
 .schedule-title {
   margin-bottom: 9px;
   width: 22%;
   font-size: 1.025em;
   font-weight: 500;
 }
+@media screen and (min-width: 720px) {
+  .schedule-title {
+    font-size: 1.5em;
+    line-height: 1.32;
+    margin-bottom: 14px;
+  }
+}
 .schedule-describe {
   font-weight: 400;
   font-size: 0.91em;
 }
+@media screen and (min-width: 720px) {
+  .schedule-describe {
+    font-size: 1.33em;
+    line-height: 1.32;
+    margin-bottom: 17px;
+  }
+}
+
 .icon-arsenal {
   position: absolute;
   top: 31px;
   right: 59px;
+}
+@media screen and (min-width: 720px) {
+  .icon-arsenal {
+    width: 71px;
+    height: 84px;
+    right: 86px;
+  }
 }
 .icon-chelsea {
   position: absolute;
   top: 31px;
   right: 10px;
 }
-
+@media screen and (min-width: 720px) {
+  .icon-chelsea {
+    width: 84px;
+    height: 84px;
+    right: 14px;
+  }
+}
 .turn-panel {
   position: relative;
   width: 100%;
@@ -315,11 +369,21 @@ button {
   padding: 9px 0px 7px 11px;
   background-color: var(--small-bg-color);
 }
+@media screen and (min-width: 720px) {
+  .turn-panel {
+    padding: 13px 0px 11px 16px;
+  }
+}
 .turn-panel-text {
   font-size: 0.8em;
   font-weight: 400;
   color: var(--primary-text-color);
   line-height: 1.32;
+}
+@media screen and (min-width: 720px) {
+  .turn-panel-text {
+    font-size: 1.18em;
+  }
 }
 
 .icon-ellipse-turn {
@@ -333,6 +397,14 @@ button {
   right: 26px;
   z-index: 1;
 }
+@media screen and (min-width: 720px) {
+  .icon-ellipse-turn {
+    width: 21px;
+    height: 21px;
+    top: 14.68px;
+    right: 38.83px;
+  }
+}
 
 .icon-rectangle {
   position: absolute;
@@ -343,24 +415,41 @@ button {
   height: 9px;
   background-color: #979797;
 }
+@media screen and (min-width: 720px) {
+  .icon-rectangle {
+    top: 18.87px;
+    right: 26.24px;
+    width: 27.3px;
+    height: 12.6px;
+  }
+}
 
 .video-screen {
   position: absolute;
-  top: 128px;
-  left: 73px;
-  width: 247px;
-  height: 150px;
+  bottom: 40px;
+  left: 22.9%;
+  width: 68.61%;
+  min-width: 247px;
+  min-height: 150px;
   border-radius: 3px;
   overflow: hidden;
   background-image: url(../images/football-yield.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 720px) {
+  .video-screen {
+    width: 360px;
+    height: 218px;
+    top: 187px;
+  }
+}
 
 .contol-panel {
   margin-top: 117px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 9px;
   width: 100%;
   height: 34px;
@@ -370,8 +459,34 @@ button {
   font-size: 0.51rem;
   font-weight: 700;
 }
+@media screen and (min-width: 720px) {
+  .contol-panel {
+    margin-top: 183px;
+    font-size: 0.75rem;
+    gap: 13px;
+  }
+}
+
 .contol-panel-icons {
   fill: var(--primary-white-color);
+}
+@media screen and (min-width: 720px) {
+  .icon-pause {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .control-line {
+    width: 172px;
+    height: 10px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .icon-baseline-video {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 /* ============FEATURES==================== */
@@ -512,48 +627,43 @@ button {
 /* =========REVIEW========= */
 
 .review {
+  padding-left: 26px;
+  padding-right: 25px;
   padding-top: 50px;
   padding-bottom: 71px;
+  overflow: hidden;
 }
-/* @media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {
   .review {
-    border-radius: 4px;
-    opacity: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    padding-left: 0px;
+    padding-right: 0px;
   }
-} */
+}
 
 .review .title {
   margin-bottom: 39px;
+  text-align: center;
 }
 
 .review-list {
-}
-@media screen and (min-width: 720px) {
-  .review-list {
-    position: relative;
-    display: flex;
-    gap: 35px;
-  }
+  position: relative;
+  display: flex;
+  gap: 35px;
 }
 
 .review-item {
   margin-left: auto;
   margin-right: auto;
-  padding: 15px 13px 61px 17px;
-  width: 309px;
-  height: auto;
+  padding: 15px 13px 0px 17px;
+  min-width: 309px;
+  height: 161px;
   border-radius: 4px;
   border: 1px solid var(--border-color-grey);
   margin-bottom: 33px;
 }
 @media screen and (min-width: 720px) {
   .review-item {
-    width: 309x;
-  }
-}
-@media screen and (min-width: 720px) {
-  .review-item:last-child {
-    opacity: 0.7;
+    width: 309px;
   }
 }
 
@@ -563,9 +673,9 @@ button {
   margin-bottom: 18px;
 }
 .review-item-avatar {
-  width: 9.7%;
-  height: auto;
   margin-right: 11px;
+  border-radius: 30px;
+  border: 2px solid var(--blue-color);
 }
 
 .review-item-title {
@@ -591,9 +701,28 @@ button {
 .review-icon-next-slider-right {
   position: absolute;
   top: 55px;
-  right: 101px;
+  right: -10px;
   z-index: 2;
 }
+@media screen and (min-width: 720px) {
+  .review-icon-next-slider-right {
+    right: 101px;
+  }
+}
+
+.icon-review-icon-next-slider-left {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  .icon-review-icon-next-slider-left {
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 101px;
+    z-index: 2;
+  }
+}
+
 .icon-dots-slider {
   display: block;
   margin-left: auto;
